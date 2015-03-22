@@ -1,0 +1,19 @@
+{
+  "name": "JoyTunes Tlushim",
+  "description": "Signin/out of Tlushim",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["config.js","signin.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Signin/out of Tlushim",
+    "default_icon": "favicon.png"
+  },
+  "manifest_version": 2
+}
